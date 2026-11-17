@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "Contoh Panel",
+    "version": "1.0.0",
+    "description": "Database JSON contoh untuk menyimpan konfigurasi domain panel.",
+    "updated_at": "2026-11-17"
+  },
+  "domains": [
+    {
+      "id": "domain-001",
+      "name": "Domain Utama",
+      "domain": "example.com",
+      "url": "https://example.com",
+      "type": "main",
+      "status": "active",
+      "is_default": true,
+      "notes": "Ganti example.com dengan domain milik sendiri."
+    },
+    {
+      "id": "domain-002",
+      "name": "Domain Cadangan",
+      "domain": "backup.example.com",
+      "url": "https://backup.example.com",
+      "type": "backup",
+      "status": "inactive",
+      "is_default": false,
+      "notes": "Contoh domain cadangan."
+    }
+  ],
+  "settings": {
+    "allow_http": false,
+    "force_https": true,
+    "maintenance_mode": false
+  }
+}
